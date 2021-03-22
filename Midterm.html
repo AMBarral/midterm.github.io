@@ -9,6 +9,7 @@
  <body style="background-color: rgb(255, 253, 208);">
 
 <h1 style="font-family:myriad-bold;">Personality Assesment</h1>
+<div>
 <h2 style="font-family:myriad;">Pick Your Favorite Color!</h2>
 
     <script>
@@ -55,6 +56,7 @@
 
     </script>
 
+
   </head>
 
   	<button onclick="red.notice()">Red</button>
@@ -63,6 +65,10 @@
     <button onclick="pink.notice()">Pink</button>
 
   </body>
+  
+  </div>
+  
+  <div2>
 
   <h2 style="font-family:myriad;">Pick Your Favorite Animal</h2>
 
@@ -108,6 +114,7 @@
   
     </script>
 
+
   </head>
 
   <body>
@@ -118,6 +125,10 @@
     <button onclick="lizard.notice()">Lizard</button>
 
   </body>
+
+  </div2>
+
+  <div3>
 
     <h2 style="font-family:myriad;">Would You Rather Visit...</h2>
 
@@ -169,6 +180,10 @@
 
   </body>
 
+</div3>
+
+<div4>
+
     <h2 style="font-family:myriad;">Whats Your Favorite Food?</h2>
 
   <script>
@@ -179,30 +194,30 @@
 
 
         var steak = {
-            description: ' $5', 
+            description: 'the type who is “gregarious,” and “generous to a fault.” Guess what? You’re also the type to think of another’s comfort before your own. Awww. So nice. You’ll risk your own comfort to please those around you', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("You are " + this.description);
             } 
         }
 
         var salad = {
-            description: ' $1,000,000', 
+            description: 'a lot of Lululemon, do yoga daily, and only order light beer. You have likely done a juice cleanse (or a few), and consider a brownie Cliff bar an indulgence', 
             notice: function() {
-                alert("You win the " + this.description);
+                alert("You wear " + this.description);
             } 
         }
 
          var pizza = {
-            description: ' $5,000!', 
+            description: 'thing you like better than hanging out with friends, is eating with them. You are jovial and fun to be around -- which is probably why you tend to be surrounded by others.', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("The only " + this.description);
             } 
         }
 
-          var chicken = {
-            description: ' $5,000!', 
+          var sushi = {
+            description: ' probably consider yourself a foodie and although this is a word we hate, we probably would get along. You are welltraveled like to drink, and know a decent amount about art. You are probably the most cultured category on this list.', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("You" + this.description);
             } 
         }
 
@@ -216,11 +231,15 @@
     <button onclick="steak.notice()">Steak</button>
     <button onclick="salad.notice()">Salad</button>
     <button onclick="pizza.notice()">Pizza</button>
-    <button onclick="chicken.notice()">Chicken</button>
+    <button onclick="sushi.notice()">Sushi</button>
 
   </body>
 
-  <h2 style="font-family:myriad;">What is your Perfect Saturday Night?</h2>
+</div4>
+
+<div5>
+
+  <h2 style="font-family:myriad;">What is your Favorite Movie Genre?</h2>
 
   <script>
 
@@ -229,35 +248,31 @@
         }
 
 
-        var couch = {
-            description: ' $5', 
-            prize: 'Dunkin Gift Card',
+        var action = {
+            description: 'hard working, less neurotic, and more creative and adventurous. And females who showed a preference towards this genre (when both sexes did) were more open than males, as with the comedy genre.', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("You are " + this.description);
             } 
         }
 
-        var bar = {
-            description: ' $1,000,000', 
-            prize: 'Grand Prize of'  ,
+        var horror = {
+            description: 'less agreeable, less altruistic, less extroverted (more reserved), and more nervous and tense', 
             notice: function() {
-                alert("You win the " + this.description);
+                alert("You are" + this.description);
             } 
         }
 
-         var movie = {
-            description: ' $5,000!', 
-            prize: 'Vaction to Europe',
+         var romance = {
+            description: 'more conscientious and more neurotic  people seem to favor romance movies. And males who showed a preference towards this genre (when both sexes did) are more open than females', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("You are " + this.description);
             } 
         }
 
-         var sleeping = {
-            description: ' $5,000!', 
-            prize: 'Vaction to Europe',
+         var comedy = {
+            description: 'more open (more creative and adventurous) and slightly less conscientious (less attention to detail and disorganized). And females who showed a preference towards this genre (when both sexes did) were more open than males.', 
             notice: function() {
-                alert("You win a " + this.description);
+                alert("You are " + this.description);
             } 
         }
 
@@ -268,12 +283,14 @@
 
   <body>
 
-    <button onclick="couch.notice()">On the Couch with a Nice Book</button>
-    <button onclick="bar.notice()">Out at the Bar</button>
-    <button onclick="movie.notice()">Dinner and a Movie</button>
-    <button onclick="sleeping.notice()">Sleeping</button>
+    <button onclick="action.notice()">Action</button>
+    <button onclick="horror.notice()">Horror</button>
+    <button onclick="romance.notice()">Romance</button>
+    <button onclick="comedy.notice()">Comedy</button>
 
   </body>
+
+</div5>
 
 
 
