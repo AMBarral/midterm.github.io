@@ -73,27 +73,35 @@
         }
 
 
-        var one = {
-            value: ' $5', 
+        var dog = {
+            description: 'energetic and outgoing. The number of dog owners is greater than other pet owners. Dog persons are more likely to be a stickler of rules and are associated with self-confidence and assertiveness. Dog owners are often found living with a spouse, a partner, or other family members, preferring to share their space with others than living alone.', 
             prize: 'Dunkin Gift Card',
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You are " + this.description);
             } 
         }
 
-        var two = {
-            value: ' $1,000,000', 
+        var cat = {
+            description: 'a rebel or a free spirit in nature. A cat person is likely to score higher in intelligence or IQ tests than others but it isn’t a result of owning cats as pets. Cats don not require as much attention as dogs and people with cats are more likely to work long hours. People with cats prefer living independently and in solitude than people with dogs. It doesn’t hurt that cats are low-maintenance pets.', 
             prize: 'Grand Prize of'  ,
             notice: function() {
-                alert("You win the " + this.prize + this.value);
+                alert("You are " + this.description);
             } 
         }
 
-         var three = {
-            value: ' $5,000!', 
+         var bird = {
+            description: 'very social and outgoing in nature. A person with a bird as a pet is more expressive in nature and has a strong, dominant personality. Bird owners are very caring and polite compared to other pet owners.', 
             prize: 'Vaction to Europe',
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You are " + this.description);
+            } 
+        }
+
+         var lizard = {
+            description: 'considered very unique and independent in nature. They like their space as much as their pet likes theirs. Reptile owners don’t tend to be the centre of attention and are more analytical. Reptile owners can be described as unpredictable, unconventional, hard-working, goal-oriented but reliable too.', 
+            prize: 'Vaction to Europe',
+            notice: function() {
+                alert("You are " + this.description);
             } 
         }
 
@@ -104,10 +112,10 @@
 
   <body>
 
-    <button onclick="one.notice()">Dog</button>
-    <button onclick="two.notice()">Cat</button>
-    <button onclick="three.notice()">Bird</button>
-    <button onclick="three.notice()">Lizard</button>
+    <button onclick="dog.notice()">Dog</button>
+    <button onclick="cat.notice()">Cat</button>
+    <button onclick="bird.notice()">Bird</button>
+    <button onclick="lizard.notice()">Lizard</button>
 
   </body>
 
@@ -120,30 +128,33 @@
         }
 
 
-        var one = {
-            value: ' $5', 
-            prize: 'Dunkin Gift Card',
+        var paris = {
+          description: 'a romantic with a taste for the finer things in life. You swoon over spending hours wandering art museums, walking cobblestone streets and eating dainty pastries', 
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You are " + this.description);
             } 
         }
 
-        var two = {
-            value: ' $1,000,000', 
-            prize: 'Grand Prize of'  ,
+        var amazon = {
+           description: 'really into seeing the world and roughing it. You don’t need fancy hotels and luxury stays, you’re trying to get through the world on a budget, and backpacking is the perfect way to do it. You get to experience the locals and start to see a place beyond the tourist attractions. It’s a great way to meet people who have the same interest as you and you can get incredible tips from others about future locations you plan on exploring', 
             notice: function() {
-                alert("You win the " + this.prize + this.value);
+                alert("You are " + this.description);
             } 
         }
 
-         var three = {
-            value: ' $5,000!', 
-            prize: 'Vaction to Europe',
+         var beach = {
+           description: 'probably stuck in an office inside most of the time, running around juggling a busy and hectic life style so a beach is your perfect vacation. You can’t be bothered to do anything other than lay in the sand and soak up the sun with no interruptions other than someone offering you another drink. It’s the only time you can actually achieve real relaxation because even at home on the weekends you’re surrounded by constant reminders of things you have to accomplish.', 
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You are " + this.description);
             } 
         }
 
+        var dubai = {
+           description: 'flashy style (or want flashy style), like large malls, tall buildings and a mix of cultures all in one place while seeming very “Western.” You don’t mind the heat AT ALL', 
+            notice: function() {
+                alert("You have " + this.description);
+            } 
+        }
   
     </script>
 
@@ -151,10 +162,10 @@
 
   <body>
 
-    <button onclick="one.notice()">Paris</button>
-    <button onclick="two.notice()">The Amazon</button>
-    <button onclick="three.notice()">Las Vegas</button>
-    <button onclick="three.notice()">Egypt</button>
+    <button onclick="paris.notice()">Paris</button>
+    <button onclick="amazon.notice()">The Amazon</button>
+    <button onclick="beach.notice()">Tropical Beach</button>
+    <button onclick="dubai.notice()">Dubai</button>
 
   </body>
 
@@ -167,27 +178,31 @@
         }
 
 
-        var one = {
-            value: ' $5', 
-            prize: 'Dunkin Gift Card',
+        var steak = {
+            description: ' $5', 
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You win a " + this.description);
             } 
         }
 
-        var two = {
-            value: ' $1,000,000', 
-            prize: 'Grand Prize of'  ,
+        var salad = {
+            description: ' $1,000,000', 
             notice: function() {
-                alert("You win the " + this.prize + this.value);
+                alert("You win the " + this.description);
             } 
         }
 
-         var three = {
-            value: ' $5,000!', 
-            prize: 'Vaction to Europe',
+         var pizza = {
+            description: ' $5,000!', 
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You win a " + this.description);
+            } 
+        }
+
+          var chicken = {
+            description: ' $5,000!', 
+            notice: function() {
+                alert("You win a " + this.description);
             } 
         }
 
@@ -198,10 +213,10 @@
 
   <body>
 
-    <button onclick="one.notice()">Steak</button>
-    <button onclick="two.notice()">Salad</button>
-    <button onclick="three.notice()">Pizza</button>
-    <button onclick="three.notice()">Chicken</button>
+    <button onclick="steak.notice()">Steak</button>
+    <button onclick="salad.notice()">Salad</button>
+    <button onclick="pizza.notice()">Pizza</button>
+    <button onclick="chicken.notice()">Chicken</button>
 
   </body>
 
@@ -214,27 +229,35 @@
         }
 
 
-        var one = {
-            value: ' $5', 
+        var couch = {
+            description: ' $5', 
             prize: 'Dunkin Gift Card',
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You win a " + this.description);
             } 
         }
 
-        var two = {
-            value: ' $1,000,000', 
+        var bar = {
+            description: ' $1,000,000', 
             prize: 'Grand Prize of'  ,
             notice: function() {
-                alert("You win the " + this.prize + this.value);
+                alert("You win the " + this.description);
             } 
         }
 
-         var three = {
-            value: ' $5,000!', 
+         var movie = {
+            description: ' $5,000!', 
             prize: 'Vaction to Europe',
             notice: function() {
-                alert("You win a " + this.prize  + " worth"  + this.value);
+                alert("You win a " + this.description);
+            } 
+        }
+
+         var sleeping = {
+            description: ' $5,000!', 
+            prize: 'Vaction to Europe',
+            notice: function() {
+                alert("You win a " + this.description);
             } 
         }
 
@@ -245,10 +268,10 @@
 
   <body>
 
-    <button onclick="one.notice()">On the Couch with a Nice Book</button>
-    <button onclick="two.notice()">Out at the Bar</button>
-    <button onclick="three.notice()">Dinner and a Movie</button>
-    <button onclick="three.notice()">Sleeping</button>
+    <button onclick="couch.notice()">On the Couch with a Nice Book</button>
+    <button onclick="bar.notice()">Out at the Bar</button>
+    <button onclick="movie.notice()">Dinner and a Movie</button>
+    <button onclick="sleeping.notice()">Sleeping</button>
 
   </body>
 
